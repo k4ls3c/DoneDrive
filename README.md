@@ -41,6 +41,28 @@ python3 ./DoneDrive.py --list
 ```
 ![image](https://github.com/k4ls3c/DoneDrive/assets/148506834/888558bb-17ad-4a75-95da-285f93f47ce1)
 
+Upload file
+```
+python3 ./DoneDrive.py --up "path/to/local/file.zip" --filename "file.zip"
+or
+python3 ./DoneDrive.py --up "path/to/local/file.zip" --filename "file.zip" --folder "FOLDER_ID"
+```
+Download file
+```
+python3 ./DoneDrive.py --download "file_name.zip" --folder "FOLDER_ID" --dest "path/to/save/file.zip"
+```
+Download a File by File ID
+```
+python3 ./DoneDrive.py --fileid "FILE_ID" --dest "path/to/save/file.zip"
+``` 
+Delete file
+```
+python3 ./DoneDrive.py --delete "file_name.txt" --folder "FOLDER_ID"
+```
+Search 
+```
+python3 ./DoneDrive.py --search "keyword"
+```
 
 ## Disclaimer
 
