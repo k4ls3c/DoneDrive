@@ -3,7 +3,7 @@
 
 ## Overview
 
-DoneDrive uses the Graph API to manage files on OneDrive. It was developed during one of the red team engagements and is heavily inspired by Graphrunner :).
+DoneDrive uses the Graph API to manage files on OneDrive. It was developed during one of the red team engagements and is heavily inspired by GraphRunner :).
 
 ## Getting Started
 
